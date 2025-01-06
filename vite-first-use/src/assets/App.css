@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --brand-color: #5565ff;
+  --error-color: #f30300;
+  --color-black: black;
+  --none-error-color: #919191;
+  --color-white: white;
+  --color-strike: #b1b1b1;
+  --font-all: Inter;
+  --font-size60: calc(60 / 14.4 * 1vw);
+  --font-size12: calc(12 / 14.4 * 1vw);
+  --font-size10: calc(10 / 14.4 * 1vw);
+  --font-size16: calc(12 / 14.4 * 1vw);
+  --font-size20: calc(20 / 14.4 * 1vw);
+  --font-weight200: 200;
+  --font-weight300: 300;
+  --font-weight400: 400;
+  --font-weight500: 500;
+  --font-weight600: 600;
+  --font-weight700: 700;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.j-between {
+  justify-content: space-between;
+}
+
+.j-start {
+  justify-content: start;
+}
+
+.a-center {
+  align-items: center;
+}
+
+.as-center {
+  align-self: center;
+}
+
+.js-center {
+  justify-self: center;
+}
+
+.j-center {
+  justify-content: center;
+}
+
+.d-column {
+  flex-direction: column;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.h-100 {
+  height: 100%;
+}

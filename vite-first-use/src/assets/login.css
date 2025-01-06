@@ -1,0 +1,117 @@
+.login {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: calc(20 / 14.4 * 1vw);
+  padding-left: calc(138 / 14.4 * 1vw);
+  height: 100vh;
+}
+
+.loginLeft {
+  width: calc(454 / 14.4 * 1vw);
+}
+
+.loginTitle {
+  font-family: var(--font-all);
+  font-size: var(--font-size60);
+  font-weight: var(--font-weight600);
+  line-height: calc(73 / 14.4 * 1vw);
+  color: var(--color-black);
+}
+
+.loginInfo {
+  font-family: var(--font-all);
+  font-size: var(--font-size12);
+  font-weight: var(--font-weight400);
+  line-height: calc(15 / 14.4 * 1vw);
+  color: var(--none-error-color);
+}
+
+.formInputs {
+  gap: calc(15 / 14.4 * 1vw);
+  margin-top: calc(60 / 14.4 * 1vw);
+  margin-bottom: calc(80 / 14.4 * 1vw);
+}
+
+.formInputs > label {
+  height: calc(60 / 14.4 * 1vw);
+  position: relative;
+}
+
+.formInputs > label > input {
+  height: 100%;
+  font-family: var(--font-all);
+  font-size: var(--font-size20);
+  font-weight: var(--font-weight400);
+  line-height: calc(24 / 14.4 * 1vw);
+  color: var(--none-error-color);
+  border: calc(2 / 14.4 * 1vw) solid var(--none-error-color);
+  border-radius: calc(8 / 14.4 * 1vw);
+  padding: 0 calc(20 / 14.4 * 1vw);
+}
+
+.formInputs > label > input:focus {
+  border: none;
+  outline: var(--brand-color);
+  outline-width: calc(2 / 14.4 * 1vw); /* Kontur qalinligi */
+  outline-style: solid; /* Kontur uslubi */
+}
+
+.formInputs > label > img {
+  width: calc(24 / 14.4 * 1vw);
+  height: calc(24 / 14.4 * 1vw);
+  position: absolute;
+  right: calc(20 / 14.4 * 1vw);
+}
+
+.form > button {
+  height: calc(60 / 14.4 * 1vw);
+  border-radius: calc(8 / 14.4 * 1vw);
+  background-color: var(--brand-color);
+  border: none;
+  font-family: var(--font-all);
+  font-size: var(--font-size16);
+  font-weight: var(--font-weight700);
+  line-height: calc(19 / 14.4 * 1vw);
+  color: var(--color-white);
+}
+
+.form > p {
+  gap: calc(5 / 14.4 * 1vw);
+  margin-top: calc(10 / 14.4 * 1vw);
+}
+
+.form > p > span {
+  font-family: var(--font-all);
+  font-size: var(--font-size12);
+  font-weight: var(--font-weight400);
+  line-height: calc(15 / 14.4 * 1vw);
+  color: var(--none-error-color);
+}
+
+.form > p > a {
+  font-family: var(--font-all);
+  font-size: var(--font-size12);
+  font-weight: var(--font-weight400);
+  line-height: calc(15 / 14.4 * 1vw);
+  color: var(--brand-color);
+}
+
+.inputError::placeholder {
+  color: #f30300 !important;
+}
+
+/* Login Right */
+
+.loginRight {
+  width: 50%;
+  background-color: var(--brand-color);
+  height: 100%;
+  border-radius: calc(30 / 14.4 * 1vw);
+}
+
+.loginRight > img {
+  width: calc(494 / 14.4 * 1vw);
+  height: calc(62 / 14.4 * 1vw);
+}

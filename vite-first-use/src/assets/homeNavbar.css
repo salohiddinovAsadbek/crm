@@ -1,0 +1,85 @@
+.homeLeft {
+  width: calc(335 / 14.4 * 1vw);
+  height: 100vh;
+  padding: calc(30 / 14.4 * 1vw) calc(20 / 14.4 * 1vw);
+  border: calc(2 / 14.4 * 1vw) solid var(--color-strike);
+  border-radius: calc(10 / 14.4 * 1vw);
+  position: relative;
+}
+
+.homeLeft > a > img {
+  width: calc(232 / 14.4 * 1vw);
+  height: calc(29 / 14.4 * 1vw);
+}
+
+.wrapper {
+  gap: calc(15 / 14.4 * 1vw);
+  margin-top: calc(30 / 14.4 * 1vw);
+}
+
+.wrapper > button {
+  width: 100%;
+  height: calc(44 / 14.4 * 1vw);
+  border: none;
+  background-color: white;
+  border-radius: calc(10 / 14.4 * 1vw);
+  padding: calc(10 / 14.4 * 1vw) calc(20 / 14.4 * 1vw);
+}
+
+.homeNavbarBlue {
+  background-color: #dce8ff !important;
+  box-shadow: 0px calc(2 / 14.4 * 1vw) calc(4 / 14.4 * 1vw) 0px #00000033;
+}
+
+.wrapper > button > div > svg {
+  width: calc(24 / 14.4 * 1vw);
+  height: calc(24 / 14.4 * 1vw);
+}
+
+.wrapper > button > p {
+  font-family: var(--font-all);
+  font-size: var(--font-size20);
+  font-weight: var(--font-weight500);
+  line-height: calc(24 / 14.4 * 1vw);
+  color: #292d32;
+}
+
+.wrapper > button {
+  gap: calc(10 / 14.4 * 1vw);
+}
+
+.homeNavbarInfoBlue {
+  color: var(--brand-color) !important;
+}
+
+.userInfo {
+  width: calc(295 / 14.4 * 1vw);
+  height: calc(69 / 14.4 * 1vw);
+  border: calc(2 / 14.4 * 1vw) solid var(--none-error-color);
+  border-radius: calc(10 / 14.4 * 1vw);
+  gap: calc(10 / 14.4 * 1vw);
+  padding: calc(19.5 / 14.4 * 1vw) calc(20 / 14.4 * 1vw);
+  position: absolute;
+  bottom: calc(30 / 14.4 * 1vw);
+}
+
+.userInfo > img {
+  width: calc(30 / 14.4 * 1vw);
+  height: calc(30 / 14.4 * 1vw);
+}
+
+.userInfo > p > span:first-child {
+  font-family: var(--font-all);
+  font-size: var(--font-size16);
+  font-weight: var(--font-weight500);
+  line-height: calc(19 / 14.4 * 1vw);
+  color: #292d32;
+}
+
+.userInfo > p > span:last-child {
+  font-family: var(--font-all);
+  font-size: var(--font-size10);
+  font-weight: var(--font-weight500);
+  line-height: calc(12 / 14.4 * 1vw);
+  color: var(--none-error-color);
+}
