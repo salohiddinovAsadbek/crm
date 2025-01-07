@@ -17,40 +17,31 @@ function Login() {
   let [placeName, setPlace] = useState("");
   let navigate = useNavigate();
   const LogIn = () => {
-    if (userName !== "" && userPassword !== "") {
-      fetch("http://194.87.161.66:5000/user/getUsers")
-        .then((req) => {
-          return req.json();
-        })
-        .then((data) => {
-          console.log(data);
-          const isUserExist = data.innerData.some((person) => {
-            person.username === userName && person.password === userPassword;
-          });
-          setuserInfo(isUserExist ? { userName, userPassword } : false);
-          setAttempt((prev) => prev + 1);
-        })
-        .catch((error) => {
-          console.log(error);
-        });
-    } else {
-      toast.error("Please! Fill all places");
-    }
-
-    setUserName("");
-    setPassword("");
+    fetch("http://194.87.161.66:5000/user/userLogin", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ username: userName, password: userPassword }),
+    })
+      .then((res) => res?.json())
+      .then((data) => {
+        if (data?.success === false) {
+          toast.error("Kirish muvaffaqiyatsiz!");
+          setPlace("inputError");
+          setBorder("#F30300");
+        } else if (data?.message === "Token") {
+          setuserInfo(true);
+        }
+      })
+      .catch((error) => {
+        toast.error("Serverda muammo");
+      });
   };
 
   useEffect(() => {
     if (userInfo === true) {
-      toast.success("Success");
       navigate("/home");
-    } else if (userInfo === false) {
-      setBorder("#F30300");
-      setPlace("inputError");
-      toast.error("Kiritilgan ma'lumot xato!");
     }
-  }, [attempt]);
+  }, [userInfo]);
 
   return (
     <>

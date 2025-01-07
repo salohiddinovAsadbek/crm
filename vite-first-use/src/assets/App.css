@@ -1,13 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
 :root {
   --brand-color: #5565ff;
   --error-color: #f30300;
+  --color-red: #ff0000;
   --color-black: black;
+  --color-mainBlack: #292d32;
   --none-error-color: #919191;
   --color-white: white;
   --color-strike: #b1b1b1;
@@ -17,6 +30,7 @@
   --font-size10: calc(10 / 14.4 * 1vw);
   --font-size16: calc(12 / 14.4 * 1vw);
   --font-size20: calc(20 / 14.4 * 1vw);
+  --font-size36: calc(36 / 14.4 * 1vw);
   --font-weight200: 200;
   --font-weight300: 300;
   --font-weight400: 400;
@@ -29,6 +43,14 @@ html,
 body {
   width: 100%;
   height: 100%;
+}
+
+.padding20 {
+  padding: calc(20 / 14.4 * 1vw);
+}
+
+.gap20 {
+  gap: calc(20 / 14.4 * 1vw);
 }
 
 a {
@@ -63,6 +85,10 @@ a {
   justify-content: center;
 }
 
+.j-end {
+  justify-content: end;
+}
+
 .d-column {
   flex-direction: column;
 }
@@ -73,4 +99,8 @@ a {
 
 .h-100 {
   height: 100%;
+}
+
+.borderRadius10 {
+  border-radius: calc(10 / 14.4 * 1vw);
 }

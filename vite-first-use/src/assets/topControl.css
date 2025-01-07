@@ -1,0 +1,44 @@
+.topControl {
+  width: calc(1045 / 14.4 * 1vw);
+}
+
+.topControl > h1 {
+  font-family: var(--font-all);
+  font-size: var(--font-size36);
+  font-weight: var(--font-weight500);
+  line-height: calc(44 / 14.4 * 1vw);
+  color: var(--color-mainBlack);
+}
+
+.topControlBtns {
+  height: calc(46 / 14.4 * 1vw);
+}
+
+.searchBtn {
+  width: calc(222 / 14.4 * 1vw);
+  border: calc(2 / 14.4 * 1vw) solid var(--color-strike);
+  padding: calc(13 / 14.4 * 1vw) calc(20 / 14.4 * 1vw);
+}
+
+.searchBtn > input {
+  border: none;
+  outline: none;
+  font-family: var(--font-all);
+  font-size: var(--font-size16);
+  font-weight: var(--font-weight500);
+  line-height: calc(19 / 14.4 * 1vw);
+  color: var(--none-error-color);
+}
+
+.searchBtn > input::placeholder {
+  font-family: var(--font-all);
+  font-size: var(--font-size16);
+  font-weight: var(--font-weight500);
+  line-height: calc(19 / 14.4 * 1vw);
+  color: var(--none-error-color);
+}
+
+.searchBtn > img {
+  width: calc(20 / 14.4 * 1vw);
+  height: calc(20 / 14.4 * 1vw);
+}

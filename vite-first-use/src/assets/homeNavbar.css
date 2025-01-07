@@ -1,6 +1,6 @@
 .homeLeft {
   width: calc(335 / 14.4 * 1vw);
-  height: 100vh;
+  height: 95vh;
   padding: calc(30 / 14.4 * 1vw) calc(20 / 14.4 * 1vw);
   border: calc(2 / 14.4 * 1vw) solid var(--color-strike);
   border-radius: calc(10 / 14.4 * 1vw);

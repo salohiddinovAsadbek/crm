@@ -30,7 +30,7 @@ function HomeNavbar() {
     {
       link: "Фирма",
       src: "companyIconGrey",
-      path: "/login",
+      path: "/company",
       class: "",
       locate: "company",
       colorBlue: "",
@@ -95,7 +95,7 @@ function HomeNavbar() {
             a.locate === "company"
           ) {
             a.class = "homeNavbarBlue";
-            a.src = "companyIconGBlue";
+            a.src = "companyIconBlue";
             a.colorBlue = "homeNavbarInfoBlue";
           } else if (location.pathname === "/keep" && a.locate === "keep") {
             a.class = "homeNavbarBlue";

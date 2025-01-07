@@ -1,0 +1,95 @@
+.createBtn {
+  padding: calc(13 / 14.4 * 1vw) calc(20 / 14.4 * 1vw);
+  background-color: var(--brand-color);
+  color: var(--color-white);
+  font-family: var(--font-all);
+  font-size: var(--font-size16);
+  font-weight: var(--font-weight500);
+  line-height: calc(19 / 14.4 * 1vw);
+  border: none;
+}
+
+.createProductProducts {
+  width: 80vw;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  border-top-left-radius: calc(30 / 14.4 * 1vw);
+  border-bottom-left-radius: calc(30 / 14.4 * 1vw);
+  background-color: var(--color-white);
+  border: calc(2 / 14.4 * 1vw) solid red;
+  padding: calc(70 / 14.4 * 1vw) calc(80 / 14.4 * 1vw) 0 calc(138 / 14.4 * 1vw);
+  transition: all 0.5s linear;
+  transform: translateX(calc(1200 / 14.4 * 1vw));
+}
+
+.createProductProducts > h1 {
+  font-family: Open Sans, sans-serif;
+  font-size: calc(23 / 14.4 * 1vw);
+  font-weight: var(--font-weight700);
+  line-height: calc(34.5 / 14.4 * 1vw);
+  color: var(--color-black);
+}
+
+.wrapperProducts {
+  flex-wrap: wrap;
+  margin-top: calc(50 / 14.4 * 1vw);
+}
+
+.wrapperProducts > label {
+  gap: calc(5 / 14.4 * 1vw);
+}
+
+.wrapperProducts > label > p {
+  font-family: Open Sans, sans-serif;
+  font-size: var(--font-size16);
+  font-weight: var(--font-weight400);
+  line-height: calc(24 / 14.4 * 1vw);
+  color: var(--none-error-color);
+}
+
+.wrapperProducts > label > input {
+  font-family: Open Sans, sans-serif;
+  font-size: var(--font-size16);
+  font-weight: var(--font-weight400);
+  line-height: calc(24 / 14.4 * 1vw);
+  width: calc(453 / 14.4 * 1vw);
+  height: calc(48 / 14.4 * 1vw);
+  border: calc(2 / 14.4 * 1vw) solid var(--none-error-color);
+  border-radius: calc(8 / 14.4 * 1vw);
+  color: var(--none-error-color);
+  padding: calc(12 / 14.4 * 1vw) calc(24 / 14.4 * 1vw);
+}
+
+.closeBtn {
+  width: calc(217 / 14.4 * 1vw);
+  height: calc(45 / 14.4 * 1vw);
+  background-color: var(--color-red);
+  border: none;
+  color: var(--color-white);
+  font-family: var(--font-all);
+  font-size: var(--font-size16);
+  font-weight: var(--font-weight500);
+  line-height: calc(19 / 14.4 * 1vw);
+}
+
+.createuBtn {
+  width: calc(217 / 14.4 * 1vw);
+  height: calc(45 / 14.4 * 1vw);
+  border: none;
+  background-color: var(--brand-color);
+  color: var(--color-white);
+  font-family: var(--font-all);
+  font-size: var(--font-size16);
+  font-weight: var(--font-weight500);
+  line-height: calc(19 / 14.4 * 1vw);
+}
+
+.functionBtns {
+  margin-top: calc(15 / 14.4 * 1vw);
+  position: absolute;
+  right: calc(85 / 14.4 * 1vw);
+  bottom: calc(25 / 14.4 * 1vw);
+}
