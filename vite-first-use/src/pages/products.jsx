@@ -5,7 +5,7 @@ function Products() {
   return (
     <div className="padding20 gap20 d-flex">
       <HomeNavbar />
-      <div>
+      <div className="w-1045">
         <TopControl
           title="Продукты"
           createInfo="Создать продукт"

@@ -1,5 +1,5 @@
 .topControl {
-  width: calc(1045 / 14.4 * 1vw);
+  width: 100%;
 }
 
 .topControl > h1 {
