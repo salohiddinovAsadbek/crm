@@ -1,0 +1,23 @@
+.edit {
+  width: calc(30 / 14.4 * 1vw);
+  height: calc(30 / 14.4 * 1vw);
+  background-color: var(--brand-color);
+  border: none;
+  border-radius: calc(5 / 14.4 * 1vw);
+}
+
+.edit > div > svg {
+  width: calc(20 / 14.4 * 1vw);
+  height: calc(20 / 14.4 * 1vw);
+}
+
+.arrowBtn {
+  background-color: inherit;
+  border: none;
+  margin-left: calc(8 / 14.4 * 1vw);
+}
+
+.arrowBtn > div > svg {
+  width: calc(24 / 14.4 * 1vw);
+  height: calc(24 / 14.4 * 1vw);
+}

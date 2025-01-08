@@ -81,7 +81,7 @@ function Home() {
         <div className="wrapperHome1 d-flex gap20 f-wrap">
           {data.map((a) => {
             return (
-              <div className="homeAllCount d-flex gap20 a-center borderRadius10 j-center">
+              <div className="homeAllCount d-flex gap20 a-center borderRadius10 j-start">
                 <span>{a.imageicon}</span>
                 <p className="d-flex d-column ">
                   <span>{a.title}</span>

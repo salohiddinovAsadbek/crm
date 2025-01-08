@@ -93,3 +93,16 @@
   right: calc(85 / 14.4 * 1vw);
   bottom: calc(25 / 14.4 * 1vw);
 }
+
+.translateNone {
+  height: 100vh !important;
+  position: relative;
+  height: max-content;
+  position: absolute;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  transition: all 0.6s linear;
+  backdrop-filter: blur(10px);
+  background-color: #2e2e2e99;
+}

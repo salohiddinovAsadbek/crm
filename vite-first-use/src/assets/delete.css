@@ -1,0 +1,12 @@
+.deleteBtn {
+  width: calc(30 / 14.4 * 1vw);
+  height: calc(30 / 14.4 * 1vw);
+  background-color: var(--error-color);
+  border: none;
+  border-radius: calc(5 / 14.4 * 1vw);
+}
+
+.deleteBtn > div > svg {
+  width: calc(20 / 14.4 * 1vw);
+  height: calc(20 / 14.4 * 1vw);
+}

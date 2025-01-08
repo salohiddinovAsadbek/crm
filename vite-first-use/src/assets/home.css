@@ -1,6 +1,5 @@
 .homeRight {
   height: auto;
-  background-color: blue;
 }
 
 .homeAllCount {
@@ -8,6 +7,7 @@
   height: calc(90 / 14.4 * 1vw);
   background-color: #f9fafc;
   border: calc(2 / 14.4 * 1vw) solid var(--color-strike);
+  padding-left: calc(20 / 14.4 * 1vw);
 }
 
 .homeAllCount > span > div > svg {
@@ -44,6 +44,6 @@
 
 .sparePlace {
   width: 100%;
-  height: auto;
-  background-color: red;
+  height: 100%;
+  border: calc(2 / 14.4 * 1vw) solid var(--color-strike);
 }
